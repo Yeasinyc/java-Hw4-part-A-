@@ -1,0 +1,50 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+UL,LI{
+list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+.container{
+   width: 1170px;
+   margin: auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+#pass{
+   height: 100vh;
+   background-color: rgb(92, 45, 110);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+div.wrapper{
+   background-color: rgb(171, 0, 194);
+   padding: 10px;
+   display: flex;
+
+}
+div.wrapper input{
+   padding: 10px;
+   border: 0;
+
+   outline: 0;
+}
+div.btn-group{
+   display: flex;
+}
+div.wrapper button{
+   padding: 10px;
+   border: 0;
+   cursor: pointer;
+}
+button.btn-2{
+   display: none;
+}
